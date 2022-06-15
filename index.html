@@ -125,82 +125,87 @@
 <br><br>
           &lt;/html&gt;
         <hr>
-
+      <br><br>
         Should produce something like this on your browser: Don&apos;t fret too much about the &lt;br/&gt;. It&apos;s just for breaking the line so that you can start from the next line. Enter key does little when it comes to changing lines in your HTML document.
+        <br>
         <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001490.png" alt="HTML output">
-
+      <ul>
         <h4>Tags to help you structure your content:</h4>
 
-        <br/> breaks the line, making you continue to the next line
-        <p> stands for paragraph. It divides your content into paragraphs
+        <li>&lt;br/&gt; breaks the line, making you continue to the next line</li>
+        <li>&lt;p&gt; stands for paragraph. It divides your content into paragraphs</li>
+      </ul>
+        <i>Note: you need to use these tags as space and enter keys do very little when it comes to formatting content inside an HTML document.</i>
 
-        Note: you need to use these tags as space and enter keys do very little when it comes to formatting content inside an HTML document.
+        <h4>Heading Tags:</h4>
 
-        (Heading)Heading Tags:
+        HTML provides you with six tags, from &lt;H1&gt; &lt;/H1&gt; to &lt;H6&gt; &lt;/H6&gt; to help you create different sized headers quickly.
+        <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001487.png" alt="Header tags">
+        <h4>Inserting an Image:</h4>
 
-        HTML provides you with six tags, from <H1> </H1> to <H6> </H6> to help you create different sized headers quickly.
-
-        (Heading)Inserting an Image:
-
-        All that’s good, but what fun without images on the webpage? Don’t worry, <IMG/> to the rescue! The image tag has a mandatory attribute called “source”. Basically, it tells the browser where it should look for the image. The syntax goes something like:
-
-        < img src = “path_to_your_image” />
-
+        All that&apos;s good, but what fun without images on the webpage? Don&apos;t worry, &lt;IMG/&gt; to the rescue! The image tag has a mandatory attribute called &quot;source&quot;. Basically, it tells the browser where it should look for the image. The syntax goes something like:
+        <br><br>
+        <i>&lt; img src = &quot;path_to_your_image&quot; /&gt; </i>
+        <br><br>
         Furthermore, it also has attributes like height and width that let you specify the height and width you want your image to take.
 
-        (Heading)Lists:
+        <h3>Lists:</h3>
 
         HTML has two types of lists – ordered and unordered. Each item of your list has to be enclosed in a tag. The syntax for creating a list is fairly simple.
-
+        <br><br>
         Suppose you want to create a list like: 
-
-        Item 1
-        Item 2
-        Item 3
-
-        The following code will easily do the job for you:
-
         <ul>
           <li> Item 1 </li>
           <li> Item 2 </li>
           <li> Item 3 </li>
         </ul>
-
-        This, by the way, was an example of an unordered list. For an ordered list, all you need to do is replace <ul> with <ol> and </ul> with </ol>.
-
-        Let’s see what the following code does: 
-
-        <html> 
-
-          <head> </head> 
-
-          <body> 
-
-            <ul> 
-              <li> I am unordered list's item 1! </li> 
-              <li> I am unordered list's item 2! </li> 
-              <li> I am unordered list's item 3! </li> 
-              <li> I am unordered list's item 4! </li> 
-            </ul> 
-            <ol> 
-              <li> I am ordered list's item 1! </li> 
-              <li> I am ordered list's item 2! </li> 
-              <li> I am ordered list's item 3! </li> 
-              <li> I am ordered list's item 4! </li> 
-            </ol> 
-
-          </body> 
-
-        </html>
-
-
+        The following code will easily do the job for you:<br>
+        <hr>
+        &lt;ul&gt;<br>
+        &lt;li> Item 1 &lt;/li&gt;<br>
+        &lt;li> Item 2 &lt;/li&gt;<br>
+        &lt;li> Item 3 &lt;/li&gt;<br>
+        &lt;/ul>
+        <hr>
+        <br>
+        This, by the way, was an example of an unordered list. For an ordered list, all you need to do is replace &lt;ul&gt; with &lt;ol&gt; and &lt;/ul&gt; with &lt;/ol&gt;.
+        <br>
+        Let&apos;s see what the following code does: 
+        <hr>
+        &lt;html&gt;
+          <br><br>
+          &lt;head&gt; &lt;/head&gt;
+          <br><br>
+          &lt;body&gt; 
+            <br><br>
+            &lt;ul&gt; <br>
+            &lt;li&gt; I am unordered list's item 1! &lt;/li&gt; <br>
+            &lt;li&gt; I am unordered list's item 2! &lt;/li&gt; <br>
+            &lt;li&gt; I am unordered list's item 3! &lt;/li&gt; <br>
+            &lt;li&gt; I am unordered list's item 4! &lt;/li&gt; <br>
+            &lt;/ul&gt; <br>
+            &lt;ol&gt; <br>
+              <li> I am ordered list's item 1! &lt;/li&gt; <br>
+              <li> I am ordered list's item 2! &lt;/li&gt; <br>
+              <li> I am ordered list's item 3! &lt;/li&gt; <br>
+              <li> I am ordered list's item 4! &lt;/li&gt; <br>
+              &lt;/ol&gt;
+            <br><br>
+            &lt;/body&gt; 
+            <br><br>
+          &lt;/html&gt;
+        <hr> <hr>
+        <br>
+        <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001489.png" alt="Output of list tags">
+       <p>
         All of these tags, when arranged coherently, will provide you with a simple webpage consisting of images, headings, and lists. Further, there are various tags that HTML supports, and we thoroughly recommend you to check them out and play with them!
-
-        (Heading)In Conclusion
-
-        You now know enough to skim through and understand any part of an HTML code. We request you to go ahead and try skimming through the source code of any website (you’ll find some tags you don’t know, but that’s how you learn!). Oh, and welcome to the world of web development. With HTML under your belt, your next stop should be making your page look beautiful using CSS.
-
-        Let us know if you had any problems in the article, and don’t forget to have a look at a source code or two!
-        -->
+      </p>
+        <h2>In Conclusion</h2>
+        <p>
+        You now know enough to skim through and understand any part of an HTML code. We request you to go ahead and try skimming through the source code of any website (you&apos;ll find some tags you don&apos;t know, but that&apos;s how you learn!). Oh, and welcome to the world of web development. With HTML under your belt, your next stop should be making your page look beautiful using CSS.
+        </p>
+        <P>
+        Let us know if you had any problems in the article, and don&apos;t forget to have a look at a source code or two!
+      </p>
   </body>
 </html>
